@@ -9,9 +9,8 @@ function HeroSection() {
     
       <div 
       className="p-4 relative z-10 w-full text-center">
-        <Spotlight 
-        //className="animate-spotlight animation-delay-[0.75s] pointer-events-none absolute z-[1] h-[169%] w-[138%] lg:w-[84%]"
-         className="absolute left-[40%] -top-80 pointer-events-none z-[1] animate-spotlight h-[220%] w-[180%] lg:w-[140%] -translate-x-1/2" 
+        <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
             <h1
